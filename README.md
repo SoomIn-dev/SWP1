@@ -1,1 +1,2 @@
-20213102	Hwang Su Min Kookmin Univ. SW dept.
+Hwang Su Min: 20213102
+Kookmin Univ. SW dept.
