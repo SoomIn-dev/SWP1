@@ -4,11 +4,7 @@ def application(environ, start_response):
     response_body = [
         '%s: %s' % (key, value) for key, value in sorted(environ.items())
     ]
-<<<<<<< HEAD
     response_body = '\n\n'.join(response_body)
-=======
-    response_body = '\r\n'.join(response_body)
->>>>>>> 611ba7d9ececdb7189ceab8dab0e90630f07668c
     status = '200 OK'
     response_headers = [
         ('Content-Type', 'text/plain'),
